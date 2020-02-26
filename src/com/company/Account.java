@@ -4,7 +4,7 @@ public abstract class Account {
     private int idNum;
     private double balance;
 
-d
+
     public Account(int id, double startBal)
     {
         idNum = id;
