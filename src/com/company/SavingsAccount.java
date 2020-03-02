@@ -11,7 +11,7 @@ public class SavingsAccount extends Account {
             super.decreaseBalance(w);
         }
     }
-    public double monthlyInterest(double i){
-        
+    public double monthlyInterest(){
+        return (currentBalance() * annualInterest) / 12;
     }
 }
